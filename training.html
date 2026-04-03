@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тренировка интеллекта - Brain Boost</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1>Brain Boost</h1>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="products.html">Продукты</a></li>
+                    <li><a href="training.html">Тренировка интеллекта</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <img src="images/ftc.png" alt="Тренировка" class="page-image">
+        <h2>Тренировка интеллекта</h2>
+        <p>Быстро проверьте свои знания!</p>
+
+        <div class="quiz">
+            <div id="question-container">
+                <div class="question">
+                    <p id="question-text">Вопрос 1: Какой цвет получается при смешивании красного и синего?</p>
+                    <div class="options">
+                        <div class="option" data-answer="wrong">Желтый</div>
+                        <div class="option" data-answer="correct">Фиолетовый</div>
+                        <div class="option" data-answer="wrong">Зеленый</div>
+                        <div class="option" data-answer="wrong">Оранжевый</div>
+                    </div>
+                </div>
+                <!-- Добавить еще вопросы -->
+            </div>
+            <button id="next-btn" class="btn">Следующий вопрос</button>
+            <div id="result"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Brain Boost. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
